@@ -1,0 +1,29 @@
+{
+  "state": "North Carolina",
+  "abbr": "NC",
+  "audio_consent": "one-party",
+  "sources": [
+    {
+      "label": "RCFP Reporters Recording Guide \u2014 North Carolina",
+      "url": "https://www.rcfp.org/reporters-recording-guide/north-carolina/"
+    },
+    {
+      "label": "ACLU \u2014 Filming and Photographing Police",
+      "url": "https://www.aclu.org/issues/free-speech/photographers-rights/filming-and-photographing-police"
+    },
+    {
+      "label": "Freedom Forum \u2014 Recording in Public",
+      "url": "https://www.freedomforum.org/recording-in-public/"
+    }
+  ],
+  "scenarios": [
+    {
+      "slug": "recording-in-public",
+      "title": "Recording in public places",
+      "quick": {
+        "video": "Generally allowed when you are lawfully present and not intruding into private spaces.",
+        "audio": "Audio rules depend on consent and expectation of privacy."
+      }
+    }
+  ]
+}

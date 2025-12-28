@@ -1,0 +1,26 @@
+:root { --maxw: 980px; --pad: 16px; --muted: #555; --border: #e6e6e6; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; color: #111; }
+header { border-bottom: 1px solid var(--border); background: #fff; position: sticky; top: 0; z-index: 10; }
+.header-inner { max-width: var(--maxw); margin: 0 auto; padding: 10px var(--pad); display: flex; gap: 14px; align-items: center; }
+.brand { font-weight: 750; text-decoration: none; color: #111; }
+nav a { color: #111; text-decoration: none; margin-right: 10px; }
+nav a:hover { text-decoration: underline; }
+main { max-width: var(--maxw); margin: 0 auto; padding: 22px var(--pad) 60px; }
+h1 { font-size: 1.65rem; margin: 0 0 10px; }
+h2 { font-size: 1.25rem; margin: 26px 0 10px; }
+p { margin: 10px 0; }
+.small { color: var(--muted); font-size: 0.92rem; }
+.callout { border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; background: #fafafa; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.card { border: 1px solid var(--border); border-radius: 14px; padding: 14px; background: #fff; }
+.card a { text-decoration: none; color: #111; font-weight: 650; }
+.card a:hover { text-decoration: underline; }
+.table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+.table th, .table td { border: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); font-size: 0.85rem; }
+.footer { border-top: 1px solid var(--border); padding: 16px var(--pad); color: var(--muted); }
+.footer-inner { max-width: var(--maxw); margin: 0 auto; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+input[type="search"] { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 12px; font-size: 1rem; }
+ul.clean { margin: 8px 0; padding-left: 18px; }
+.ad-slot { border: 1px dashed #cfcfcf; border-radius: 12px; padding: 12px; margin: 14px 0; color: var(--muted); font-size: 0.9rem; }
