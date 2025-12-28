@@ -24,3 +24,27 @@ p { margin: 10px 0; }
 input[type="search"] { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 12px; font-size: 1rem; }
 ul.clean { margin: 8px 0; padding-left: 18px; }
 .ad-slot { border: 1px dashed #cfcfcf; border-radius: 12px; padding: 12px; margin: 14px 0; color: var(--muted); font-size: 0.9rem; }
+
+/* --- Phase 1: Trust/Readability polish --- */
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+main { max-width: 900px; }
+
+p, li { line-height: 1.7; }
+
+h1 { margin: 0 0 0.8em; letter-spacing: -0.01em; }
+h2 { margin: 2.1em 0 0.6em; letter-spacing: -0.005em; }
+
+.header-inner { align-items: flex-start; }
+.brand-wrap { display: flex; flex-direction: column; gap: 2px; }
+.brand-sub { font-size: 0.85rem; color: var(--muted); }
+
+.table { background: #fff; border-radius: 12px; overflow: hidden; }
+.table th { background: #f5f7fa; font-weight: 650; }
+.table th, .table td { border-color: #e3e6ea; padding: 12px 14px; }
+
+.callout { background: #fcfcfd; }
+
+.ad-slot { background: #fff; }
